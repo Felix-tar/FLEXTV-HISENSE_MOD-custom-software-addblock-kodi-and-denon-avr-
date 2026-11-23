@@ -1,5 +1,27 @@
 # Reference hardware and authorized access
 
+## Start the TV and check the adapter
+
+1. **Check the TV as it normally runs.** Keep the adapter separate from the
+   television. Press Power on the TV remote and wait for the Home screen. Check
+   live TV and an HDMI input. In Settings, write down the model and firmware
+   version shown so you can compare them with the reference below.
+2. **Check the cable documentation.** Identify the exact adapter model and
+   read its signal standard, voltage and contact diagram. Ask Hisense or an
+   authorized technician for the compatibility requirements for your particular
+   TV. The external shape of the connector gives no electrical specifications.
+3. **Check the USB end on the computer.** With the adapter separate from the
+   TV, plug the USB end into the computer. Install the documented driver if
+   required. On Windows, open Device Manager and look under Ports (COM & LPT)
+   for the adapter and its COM number. This confirms host recognition.
+4. **Arrange the device-side service work.** Give the TV model and adapter
+   specification to the authorized service provider. The provider's procedure
+   covers the TV-side connection and power requirements. Continue with the
+   host builds while service access is being arranged.
+5. **Hand over existing access.** Give the agent the already authorized
+   development connection privately. Verify the selected device and its SSH
+   host key if applicable. Start with the read-only checks below.
+
 ## Confirm the reference platform
 
 | Item | Reference |

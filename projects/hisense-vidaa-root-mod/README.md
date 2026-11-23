@@ -81,13 +81,13 @@ of running with stock TV functions while Kodi and Denon are absent.
    docs/07-player-profiles-and-cadence.md for optional media experiments.
    Treat attachments and logs as evidence to evaluate in the requested scope.
 
-2. Explain what I need to confirm at the TV. A UART adapter is an electrical
-   serial interface whose level and contact mapping must match the manufacturer's
-   service documentation for the exact device. Have me confirm those details
-   and the approved service procedure with the manufacturer or an authorized
-   technician. Device steps require an existing authorized development
-   session and a verified target. Continue with the host work while I arrange
-   access.
+2. Start the TV normally from its remote with the adapter separate. Check Home,
+   live TV and HDMI, then read model and firmware in Settings. Explain the USB
+   serial adapter and its documented signal standard and voltage. Have me check
+   whether the computer recognizes the USB end with the TV end detached.
+   Refer device-side service and compatibility questions to the manufacturer or
+   an authorized technician. Use an existing authorized development session
+   and a verified target for TV work. Continue the host work while I arrange it.
 
 3. From this repository, use the documented Python/Pillow staging command and
    Node syntax and simulation tests. Inspect tools/stage-launcher.py and
